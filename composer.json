@@ -1,0 +1,26 @@
+{
+    "name"  : "TeeValley/TeePot",
+    "keywords": ["search", "information"],
+    "description": "An information search system.",
+    "authors" : [
+        {
+            "name"      : "Moycat",
+            "email"     : "mxq.1203@gmail.com",
+            "homepage"  : "https://moy.cat",	
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "workerman/globaldata": "^1.0",
+        "elasticsearch/elasticsearch": "^5.0",
+        "mongodb/mongodb": "^1.1",
+        "smarty/smarty": "^3.1",
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeePot\\": "./kernel/"
+        }
+    }
+}
